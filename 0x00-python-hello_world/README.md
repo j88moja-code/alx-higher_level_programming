@@ -8,3 +8,5 @@
 * [5-print_string.py]() - prints the string `str` from a given source code 3 times followed by the string's `str` first 9 chars.
 * [6-concat.py]() - prints Welcome to Holberton School! from a given source code.
 * [7-edges.py]() - copy - cut - paste.
+* [8-concat_edges.py]() - creats a new sentence from a given source code.
+* [9-easter_egg.py]() - prints "The Zen of Python", by TimPeters, followed by a new line.
