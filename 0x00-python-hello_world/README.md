@@ -10,3 +10,4 @@
 * [7-edges.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x00-python-hello_world/7-edges.py) - copy - cut - paste.
 * [8-concat_edges.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x00-python-hello_world/8-concat_edges.py) - creats a new sentence from a given source code.
 * [9-easter_egg.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x00-python-hello_world/9-easter_egg.py) - prints "The Zen of Python", by TimPeters, followed by a new line.
+* [10-check_cycle.c]() - a function in C that checks if a singly linked list has a cycle in it. TECHNICALN INTERVIEW PREPARATION.
