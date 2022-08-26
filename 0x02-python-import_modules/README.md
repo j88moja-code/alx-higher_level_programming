@@ -12,3 +12,4 @@
 ## advanced tasks
 
 * [100-my_calculator.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x02-python-import_modules/100-my_calculator.py) - a program that imports all tge functions from the file `calculator_1.py` and handles basic operations.
+* [101-easy_print.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x02-python-import_modules/101-easy_print.py) - a program that prints #pythoniscool, followed by a new line, in the standard output.
