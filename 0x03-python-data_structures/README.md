@@ -20,3 +20,4 @@
 
 ## advanced task(s)
 
+* [100-print_python_list_info.c]() - a C function that prints some basic info about Python lists.
