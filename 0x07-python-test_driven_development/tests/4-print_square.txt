@@ -1,0 +1,64 @@
+
+kai-dg
+/
+holbertonschool-higher_level_programming
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+holbertonschool-higher_level_programming/0x07-python-test_driven_development/tests/4-print_square.txt
+@kai-dg
+kai-dg fixed 0 input case
+ 1 contributor
+47 lines (37 sloc)  967 Bytes
+Using ``print_square``
+-----------------------
+
+Checks if size is an int
+Checks if size is less than 0
+Checks if size is less than 0 and a float
+Prints a square with the char "#" depending on size
+
+First import ``print_square``
+
+    >>> print_square = __import__('4-print_square').print_square
+
+Now use it:
+
+Basic usage:
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+Negative input:
+    >>> print_square(-1)
+    Traceback (most recent call last):
+    ...
+    ValueError: size must be >= 0
+
+Non int input:
+    >>> print_square('h')
+    Traceback (most recent call last):
+    ...
+    TypeError: size must be an integer
+
+Float AND negative input:
+    >>> print_square(-1.5)
+    Traceback (most recent call last):
+    ...
+    TypeError: size must be an integer
+
+No input:
+    >>> print_square()
+    Traceback (most recent call last):
+    ...
+    TypeError: print_square() missing 1 required positional argument: 'size'
+
+Zero input:
+    >>> print_square(0)
