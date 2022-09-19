@@ -1,0 +1,45 @@
+Import file
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Test for valid input
+>>> test_string = "adipiscing elit. Quonam modo?"
+>>> text_indentation(test_string)
+adipiscing elit.
+<BLANKLINE>
+Quonam modo?
+
+Test for invalid input
+>>> text_indentation(123)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+Test for string with leading spaces
+>>> text_indentation("    hello")
+hello
+
+Test for string with trailing spaces
+>>> text_indentation("world      ")
+world
+
+Test for empty string
+>>> text_indentation("")
+
+Test for repeating delimiters
+>>> text_indentation("  hello .?. world   ")
+hello .
+<BLANKLINE>
+?
+<BLANKLINE>
+.
+<BLANKLINE>
+world
+
+Test for repeating delimiters with whitespace in between
+>>> text_indentation("hello .    ?    .  world")
+hello .
+<BLANKLINE>
+?
+<BLANKLINE>
+.
+<BLANKLINE>
+world
