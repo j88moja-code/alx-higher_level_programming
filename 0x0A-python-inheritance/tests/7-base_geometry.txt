@@ -1,0 +1,90 @@
+# 7-base_geometry.txt:
+----------------------------
+How to use 7-base_geometry.txt: checks if the class base_geometry has correct output
+----------------------------
+
+Contains test cases for class BaseGeometry()
+
+Test 1: Normal case
+::
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("my_int", 12)
+
+
+Test 2: empty string
+::
+    >>> bg.integer_validator("", 12)
+
+Test 3: no argument 2 
+::
+    >>> bg.integer_validator("hi") # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 4: no args.
+::
+    >>> bg.integer_validator() # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 5: value is not integer
+::
+    >>> bg.integer_validator("new", 7.5) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 6: value is zero
+::
+    >>> bg.integer_validator("new", 0) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    ValueError: ...
+
+Test 7: value is negative
+::
+    >>> bg.integer_validator("new", -7) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    ValueError: ...
+
+Test 8: area method
+::
+    >>> bg.integer_validator("new", 7)
+    >>> bg.area() # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    Exception: ...
+
+Test 9: value is None
+::
+    >>> bg.integer_validator("new", None) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 10: value is tuple
+::
+    >>> bg.integer_validator("new", (-7,)) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 11: value is list
+::
+    >>> bg.integer_validator("new", [-7]) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 12: value is string
+::
+    >>> bg.integer_validator("new", "hello") # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 13: value is boolean
+::
+    >>> bg.integer_validator("new", True) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
+
+Test 14: value is set
+::
+    >>> bg.integer_validator("new", {-7}) # doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    TypeError: ...
