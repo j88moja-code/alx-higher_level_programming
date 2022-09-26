@@ -1,0 +1,61 @@
+# 1-my_list.txt:
+----------------------------
+How to use 1-my_list.txt: checks if a method for the class my_list is returning the sorted list correctly
+----------------------------
+
+Contains test cases for function print_sorted()
+
+Test 1: Normal case
+::
+    >>> MyList = __import__('1-my_list').MyList
+    >>> my_list = MyList()
+    >>> my_list.append(1)
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.print_sorted()
+    [1, 2, 4]
+    [1, 2, 4]
+
+Test 2: empty list
+::
+    >>> my_list = MyList()
+    >>> my_list.print_sorted()
+    []
+    []
+
+Test 3: reversed list 
+::
+    >>> my_list = MyList()
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.append(1)
+    >>> my_list.print_sorted()
+    [1, 2, 4]
+    [1, 2, 4]
+
+Test 4: negatives
+::
+    >>> my_list = MyList()
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.append(-1)
+    >>> my_list.print_sorted()
+    [-1, 2, 4]
+    [-1, 2, 4]
+
+Test 5: __str__
+::
+    >>> my_list = MyList()
+    >>> print(my_list)
+    []
+
+Test 6: 
+::
+    >>> my_list = MyList()
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.append(1)
+    >>> new = my_list.print_sorted()
+    [1, 2, 4]
+    >>> print(new)
+    [1, 2, 4]
