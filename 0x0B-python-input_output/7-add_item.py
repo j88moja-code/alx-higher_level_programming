@@ -4,16 +4,15 @@
 save them to a file
 """
 import sys
-import os
-save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
-load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
 
-if os.path.isfile('./add_item.json'):
-    new_list = load_from_json_file('add_item.json')
-else:
-    new_list = []
+if __name__ == "__main__":
+    save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
+    load_from_json_file = \
+        __import__('8-load_from_json_file').load_from_json_file
 
-for i in range(1, len(sys.argv)):
-    new_list.append(sys.argv[i])
-
-save_to_json_file(new_list, 'add_item.json')
+    try:
+        items = load_from_json_file("add_item.json")
+    except FileNotFoundError:
+        items = []
+    items.extend(sys.argv[1:])
+    save_to_json_file(items, "add_item.json")
