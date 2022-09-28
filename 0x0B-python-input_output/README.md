@@ -22,5 +22,5 @@
 
 `advanced tasks`
 
-* [100-append_after.py]() - a function that inserts a line of text to a file, after each line containing a specific string
-* [101-stats.py]() -  a script that reads ``stdin`` line by line and computes metrics
+* [100-append_after.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0B-python-input_output/100-append_after.py) - a function that inserts a line of text to a file, after each line containing a specific string
+* [101-stats.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0B-python-input_output/101-stats.py) -  a script that reads ``stdin`` line by line and computes metrics
