@@ -16,6 +16,11 @@
 * [11-student.py](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0B-python-input_output/11-student.py) - a class ``Student`` that defines a student by: (based on ``10-student.py``)
 ### Technical interview preparation
 * [12-pascal_triangle.py]() - a function ``def pascal_triangle(n):`` that returns a list of lists of integers representing the Pascal’s triangle of ``n``:
-** Returns an empty list if ``n <= 0``
-** You can assume ``n`` will be always an integer
-** You are not allowed to import any module
+*** Returns an empty list if ``n <= 0``
+*** You can assume ``n`` will be always an integer
+*** You are not allowed to import any module
+
+`advanced tasks`
+
+* [100-append_after.py]() - a function that inserts a line of text to a file, after each line containing a specific string
+* [101-stats.py]() -  a script that reads ``stdin`` line by line and computes metrics
