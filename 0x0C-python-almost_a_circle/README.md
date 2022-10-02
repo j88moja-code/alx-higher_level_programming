@@ -2,7 +2,8 @@
 
 ### Contents
 
-* [models]
+* [models]() - directory with all the models for the project.
+* [tests]() - directory with all the tests for the project.
 
 `mandatory tasks`
 
