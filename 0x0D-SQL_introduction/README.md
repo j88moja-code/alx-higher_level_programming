@@ -93,10 +93,10 @@
 
 * [100-move_to_utf8.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/100-move_to_utf8.sql) - a script that converts ``hbtn_0c_0`` database to UTF8 (``utf8mb4``, collate ``utf8mb4_unicode_ci``) in your MySQL server.
 
-You need to convert all of the following to ``UTF8``:
+    * You need to convert all of the following to ``UTF8``:
 
-    * Database ``hbtn_0c_0``
-    * Table ``first_table``
-    * Field name in ``first_table``
+    *   Database ``hbtn_0c_0``
+    *   Table ``first_table``
+    *   Field name in ``first_table``
 * [101-avg_temperatures.sql]() - a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
 * [102-top_city.sql]() - a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
