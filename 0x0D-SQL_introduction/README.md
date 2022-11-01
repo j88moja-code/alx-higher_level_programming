@@ -59,29 +59,29 @@
     * Results should display both the score and the name (in this order)
     * Records should be ordered by score (top first)
     * The database name will be passed as an argument of the ``mysql`` command
-* [11-best_score.sql]() - a script that lists all records with a ``score >= 10`` in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
+* [11-best_score.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/11-best_score.sql) - a script that lists all records with a ``score >= 10`` in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
     * Results should display both the score and the name (in this order)
     * Records should be ordered by score (top first)
     * The database name will be passed as an argument of the ``mysql`` command
-* [12-no_cheating.sql]() - a script that updates the score of Bob to ``10`` in the table ``second_table``.
+* [12-no_cheating.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/12-no_cheating.sql) - a script that updates the score of Bob to ``10`` in the table ``second_table``.
 
     * You are not allowed to use Bob’s id value, only the name field
     * The database name will be passed as an argument of the ``mysql`` command
-* [13-change_class.sql]() - a script that removes all records with a ``score <= 5`` in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
+* [13-change_class.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/13-change_class.sql) - a script that removes all records with a ``score <= 5`` in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
 
     * The database name will be passed as an argument of the ``mysql`` command
-* [14-average.sql]() - a script that computes the score average of all records in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
+* [14-average.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/14-average.sql) - a script that computes the score average of all records in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
 
     * The result column name should be ``average``
     * The database name will be passed as an argument of the ``mysql`` command
-* [15-groups.sql]() - a script that lists the number of records with the same score in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
+* [15-groups.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/15-groups.sql) - a script that lists the number of records with the same score in the table ``second_table`` of the database ``hbtn_0c_0`` in your MySQL server.
 
     * The result should display:
     *   the`` score``
     *   the number of records for this ``score`` with the label ``number``
     * The list should be sorted by the number of records (descending)
     * The database name will be passed as an argument to the ``mysql`` command
-* [16-no_link.sql]() - a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+* [16-no_link.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/16-no_link.sql) - a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
 
     * Don’t list rows without a ``name`` value
     * Results should display the score and the name (in this order)
@@ -91,4 +91,12 @@
 
 ### ``advanced tasks``
 
-* []() - 
+* [100-move_to_utf8.sql](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/100-move_to_utf8.sql) - a script that converts ``hbtn_0c_0`` database to UTF8 (``utf8mb4``, collate ``utf8mb4_unicode_ci``) in your MySQL server.
+
+You need to convert all of the following to ``UTF8``:
+
+    * Database ``hbtn_0c_0``
+    * Table ``first_table``
+    * Field name in ``first_table``
+* [101-avg_temperatures.sql]() - a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+* [102-top_city.sql]() - a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
