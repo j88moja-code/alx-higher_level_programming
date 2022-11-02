@@ -18,4 +18,5 @@ This repo contains source code for projects and tasks covered under ALX higher l
 ### [0x0A-python-inheritance](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0A-python-inheritance)
 ### [0x0B-python-input_output](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0B-python-input_output)
 ### [0x0C-python-almost_a_circle](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle)
-### [0x0D-SQL_introduction]()
+### [0x0D-SQL_introduction](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)
+### [0x0E-SQL_more_queries](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries)
