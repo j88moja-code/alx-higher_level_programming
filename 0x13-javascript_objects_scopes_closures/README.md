@@ -74,4 +74,23 @@ Create an instance method called `rotate()` that exchanges the `width` and the `
 
 ``advanced tasks``
 
+* [100-map.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/100-map.js) - a script that imports an array and computes a new array.
 
+	* Your script must import `list` from the file `100-data.js`
+	* You must use a `map`.
+	* A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
+	* Print both the initial list and the new list
+
+* [101-sorted.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/101-sorted.js) - a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
+
+	* Your script must import `dict` from the file `101-data.js`
+	* In the new dictionary:
+		* A key is a number of occurrences
+		* A value is the list of user ids
+	* Print the new dictionary at the end
+
+* [102-concat.js]() - a script that concats 2 files.
+
+	* The first argument is the file path of the first source file
+	* The second argument is the file path of the second source file
+	* The third argument is the file path of the destination
