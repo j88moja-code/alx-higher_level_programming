@@ -1,4 +1,4 @@
-## [0x13-javascript_objects_scopes_closures]
+## 0x13-javascript_objects_scopes_closures
 
 `mandatory tasks`
 
@@ -89,7 +89,7 @@ Create an instance method called `rotate()` that exchanges the `width` and the `
 		* A value is the list of user ids
 	* Print the new dictionary at the end
 
-* [102-concat.js]() - a script that concats 2 files.
+* [102-concat.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/102-concat.js) - a script that concats 2 files.
 
 	* The first argument is the file path of the first source file
 	* The second argument is the file path of the second source file
