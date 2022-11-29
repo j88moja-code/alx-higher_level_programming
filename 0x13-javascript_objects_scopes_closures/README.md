@@ -52,3 +52,26 @@ Create an instance method called `rotate()` that exchanges the `width` and the `
 	* You must use the `class` notation for defining your class and `extends`
 	* Create an instance method called `charPrint(c)` that prints the rectangle using the character `c`
 		* If `c` is `undefined`, use the character `X`
+
+* [7-occurrences.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/7-occurrences.js) -  a function that returns the number of occurrences in a list:
+
+	* Prototype: `exports.nbOccurences = function (list, searchElement)`
+
+* [8-esrever.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/8-esrever.js) - a function that returns the reversed version of a list:
+
+	* Prototype: `exports.esrever = function (list)`
+	* You are not allow to use the built-in method `reverse`
+
+* [9-logme.js](https://github.com/j88moja-code/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/8-esrever.js) - a function that prints the number of arguments already printed and     the new argument value. (see example below)
+	* Prototype: `exports.logMe = function (item)`
+	* Output format: `<number arguments already printed>: <current argument value>`
+
+* [10-converter.js]() - a function that converts a number from base 10 to another base passed as argument:
+
+	* Prototype: `exports.converter = function (base)`
+	* You are not allowed to import any file
+	* You are not allowed to declare any new variable (`var`, `let`, etc..)
+
+``advanced tasks``
+
+
