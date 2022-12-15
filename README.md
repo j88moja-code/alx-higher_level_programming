@@ -24,3 +24,4 @@ This repo contains source code for projects and tasks covered under ALX higher l
 ### [0x13-javascript_objects_scopes_closures](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x13-javascript_objects_scopes_closures)
 ### [0x0F-python-object_relational_mapping](https://github.com/j88moja-code/alx-higher_level_programming/tree/main/0x0F-python-object_relational_mapping)
 ### [0x10-python-network_0]()
+### [0x11-python-network_1]()
